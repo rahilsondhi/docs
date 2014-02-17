@@ -94,12 +94,12 @@ Now push your changes and you'll be all set.
 
 <h2 id="custom_domains">Custom Domains</h2>
 
-First you'll need to create a file named `CNAME` in your blog's source:
+First you'll need to create a file named `CNAME` in your blog's `public` directory:
 
 ``` sh
-echo 'your-domain.com' >> source/CNAME
+echo 'your-domain.com' >> public/CNAME
 # OR
-echo 'www.your-domain.com' >> source/CNAME
+echo 'www.your-domain.com' >> public/CNAME
 ```
 
 Next, you’ll need to visit your domain registrar or DNS host and add a record for your domain name.
